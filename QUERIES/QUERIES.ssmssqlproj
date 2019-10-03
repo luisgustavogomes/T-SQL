@@ -1,9 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SqlWorkbenchSqlProject">
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="QUERIES">
   <Items>
-    <LogicalFolder Name="Connections" Type="2" />
-    <LogicalFolder Name="Queries" Type="0" />
-    <LogicalFolder Name="Miscellaneous" Type="3" />
-
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="CROSS APPLY and OUTER APPLY.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CROSS APPLY and OUTER APPLY.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CROSS APPLY and OUTER APPLY_2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CROSS APPLY and OUTER APPLY_2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CTE RECURSIVA.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CTE RECURSIVA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FIRST_VALUE and LAST_VALUE.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>FIRST_VALUE and LAST_VALUE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HELP_DATE.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HELP_DATE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LEAD and LAG.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LEAD and LAG.sql</FullPath>
+        </FileNode>
+        <FileNode Name="NTILE.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>NTILE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="OVER.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>OVER.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PIVOT DINAMICO.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PIVOT DINAMICO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PIVOT.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PIVOT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RANGE and ROWS.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>RANGE and ROWS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UNPIVOT sem CLAUSULA UNPIVOT.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>UNPIVOT sem CLAUSULA UNPIVOT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UNPIVOT.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>UNPIVOT.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>
