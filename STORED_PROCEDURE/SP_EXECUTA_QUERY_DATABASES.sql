@@ -16,7 +16,6 @@ SELECT * FROM #Dbs where Nome like '%dirceu%'
 */
 
 
-
 CREATE OR ALTER  PROCEDURE dbo.SP_EXECUTA_QUERY_DATABASES (
     @Ds_Query VARCHAR(MAX),
     @Ds_Incluir_Database VARCHAR(MAX) = NULL,
