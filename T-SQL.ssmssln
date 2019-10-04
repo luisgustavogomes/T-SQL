@@ -7,6 +7,8 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "ADMINISTRADOR", "ADMINISTRA
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "QUERIES", "QUERIES\QUERIES.ssmssqlproj", "{480E153A-CFE0-4A09-8C7A-B2EFE2D997B9}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "STORED_PROCEDURE", "STORED_PROCEDURE\STORED_PROCEDURE.ssmssqlproj", "{5C2006BD-5D52-40DD-8F89-28E25DEF5910}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -15,6 +17,7 @@ Global
 		{D3316E42-B20C-4600-BB21-FCFC25C0D094}.Default|Default.ActiveCfg = Default
 		{480E153A-CFE0-4A09-8C7A-B2EFE2D997B9}.Default|Default.ActiveCfg = Default
 		{6DDAB0E5-F082-4FE2-987B-2B82B32ADD4E}.Default|Default.ActiveCfg = Default
+		{5C2006BD-5D52-40DD-8F89-28E25DEF5910}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

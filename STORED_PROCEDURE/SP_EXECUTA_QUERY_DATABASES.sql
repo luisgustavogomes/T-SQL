@@ -5,18 +5,19 @@ https://www.dirceuresende.com/blog/executando-um-comando-em-todos-os-databases-d
 Exemplo
 IF (OBJECT_ID('tempdb..#Dbs') IS NOT NULL) DROP TABLE #Dbs
 CREATE TABLE #Dbs (
-    Nome SYSNAME
+    Nome varchar(max), id int
 )
 
 INSERT INTO #Dbs
-EXEC dbo.stpExecuta_Query_Databases
-    @Ds_Query = 'SELECT DB_NAME()'
+EXEC dbo.SP_EXECUTA_QUERY_DATABASES
+    @Ds_Query = 'SELECT name, db_id() from sys.procedures'
 
-SELECT * FROM #Dbs
-
+SELECT * FROM #Dbs where Nome like '%dirceu%'
 */
 
-CREATE OR ALTER  PROCEDURE dbo.STPEXECUTA_QUERY_DATABASES (
+
+
+CREATE OR ALTER  PROCEDURE dbo.SP_EXECUTA_QUERY_DATABASES (
     @Ds_Query VARCHAR(MAX),
     @Ds_Incluir_Database VARCHAR(MAX) = NULL,
     @Ds_Excluir_Database VARCHAR(MAX) = NULL
