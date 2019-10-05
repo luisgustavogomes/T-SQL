@@ -1,0 +1,23 @@
+USE Treinamento
+GO
+
+IF OBJECT_ID ('TEMPDB..#T') IS NOT NULL
+	DROP TABLE TEMPDB..#T
+GO
+
+CREATE TABLE #T (
+				ID INT IDENTITY(1,1), 
+				FIRSTNAME VARCHAR(100), 
+				MIDDLENAME VARCHAR(100), 
+				LASTNAME VARCHAR(100))
+
+INSERT INTO #T (FIRSTNAME,MIDDLENAME,LASTNAME)
+VALUES ('San',null,null),
+       (null,'Todd','Tanzan'),
+	   (null,null,'Sara'),
+	   ('Ben','Parker',null),
+	   ('James','Nick','Nancy')
+
+
+SELECT * FROM #T
+SELECT NULLIF(NULLIF(FIRSTNAME, 'SAN'),'BEN') AS ONE , FIRSTNAME, MIDDLENAME, LASTNAME FROM #T
