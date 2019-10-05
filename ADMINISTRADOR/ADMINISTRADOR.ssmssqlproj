@@ -19,23 +19,251 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="00_IDENTIFICA_TRIGGERS.sql">
+        <FileNode Name="BACKUP_DATABASES_SEM_BACKUP.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>00_IDENTIFICA_TRIGGERS.sql</FullPath>
+          <FullPath>BACKUP_DATABASES_SEM_BACKUP.sql</FullPath>
         </FileNode>
-        <FileNode Name="01_METRICAS_TABELAS.sql">
+        <FileNode Name="BACKUP_HIST_BACKUPS.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>01_METRICAS_TABELAS.sql</FullPath>
+          <FullPath>BACKUP_HIST_BACKUPS.sql</FullPath>
         </FileNode>
-        <FileNode Name="02_RELACIONAMENTOS.sql">
+        <FileNode Name="BACKUP_HIST_RESTORE.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>02_RELACIONAMENTOS.sql</FullPath>
+          <FullPath>BACKUP_HIST_RESTORE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BACKUP_LIST_BACKUP_E_RESTORE_EM_ANDAMENTO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>BACKUP_LIST_BACKUP_E_RESTORE_EM_ANDAMENTO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BACKUP_LIST_BACKUPS_RESTORE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>BACKUP_LIST_BACKUPS_RESTORE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INDEX_IDENTIFICA_FRAG.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>INDEX_IDENTIFICA_FRAG.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INDEX_IDENTIFICA_TAB_IND_SEM_COMPRESSAO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>INDEX_IDENTIFICA_TAB_IND_SEM_COMPRESSAO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INDEX_MISSING_INDEX.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>INDEX_MISSING_INDEX.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INDEX_POSSIVEIS_CLUSTERED.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>INDEX_POSSIVEIS_CLUSTERED.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INDEX_TAMANHO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>INDEX_TAMANHO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INDEX_UTILIZACAO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>INDEX_UTILIZACAO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IO_CONFIG_ENERGIA_SERVER.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>IO_CONFIG_ENERGIA_SERVER.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IO_DESEMPENHO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>IO_DESEMPENHO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IO_FILA_PENDENTES.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>IO_FILA_PENDENTES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IO_HIST_CONSUMO_ENERGIA_SERVER.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>IO_HIST_CONSUMO_ENERGIA_SERVER.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IO_MONITOR_USO_MEMORIA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>IO_MONITOR_USO_MEMORIA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IO_QTDE_PAGINAS_MEMORIA_DATABASE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>IO_QTDE_PAGINAS_MEMORIA_DATABASE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IO_TAMANHO_DISCO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>IO_TAMANHO_DISCO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IO_TAMANHO_FILE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>IO_TAMANHO_FILE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PROPERTY_CONFIGURACOES_DATABASE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PROPERTY_CONFIGURACOES_DATABASE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="QUERY_STORE_IDENTIFICA_CONSULTAS_TOP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>QUERY_STORE_IDENTIFICA_CONSULTAS_TOP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SECURITY_IDENTIFICA_PERMISSOES_USER.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SECURITY_IDENTIFICA_PERMISSOES_USER.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SECURITY_PERMISSOES_SERVER.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SECURITY_PERMISSOES_SERVER.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SECURITY_USUARIOS_ORFAOS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SECURITY_USUARIOS_ORFAOS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="STATISTICS_SEM_ATUALIZAR.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>STATISTICS_SEM_ATUALIZAR.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TABLE_IDENTIFICA_HEAP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TABLE_IDENTIFICA_HEAP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TABLE_METRICAS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TABLE_METRICAS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TABLE_RELACIONAMENTOS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TABLE_RELACIONAMENTOS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TABLE_SCRIPT_INDICES.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TABLE_SCRIPT_INDICES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TABLE_TAMANHO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TABLE_TAMANHO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRANSACT_EVENTOS_AUTOGROWTH.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRANSACT_EVENTOS_AUTOGROWTH.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRANSACT_EVENTOS_WAIT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRANSACT_EVENTOS_WAIT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRANSACT_IDENTIFICA_BLOCKS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRANSACT_IDENTIFICA_BLOCKS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRANSACT_IDENTIFICA_DBCC.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRANSACT_IDENTIFICA_DBCC.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRANSACT_IDENTIFICA_DEADLOCK.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRANSACT_IDENTIFICA_DEADLOCK.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRANSACT_IDENTIFICA_LOCKS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRANSACT_IDENTIFICA_LOCKS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRANSACT_OPERACAOES_DDL_DCL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRANSACT_OPERACAOES_DDL_DCL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRANSACT_QUERYS_EXECUTANDO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRANSACT_QUERYS_EXECUTANDO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRANSACT_QUERYS_EXECUTANDO_2008.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRANSACT_QUERYS_EXECUTANDO_2008.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRANSACT_TRANSACTION_LOG.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRANSACT_TRANSACTION_LOG.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRIGGERS_IDENTIFICA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRIGGERS_IDENTIFICA.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
