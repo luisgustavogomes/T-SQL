@@ -35,6 +35,6 @@ SELECT  t.query_sql_text, q.query_id, p.plan_id, object_name(q.object_id) AS par
  FROM sys.query_store_query_text t JOIN sys.query_store_query q
   ON t.query_text_id = q.query_text_id 
  JOIN sys.query_store_plan p ON q.query_id = p.query_id 
-WHERE q.query_id = 4305750 
+WHERE q.query_id = 6 
  -- OR t.query_sql_text LIKE  N'%SELECT c1, c2 FROM  dbo.db_store%'
  -- OR object_name(q.object_id) = 'proc_1'

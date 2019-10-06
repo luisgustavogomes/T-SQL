@@ -49,6 +49,42 @@
           <AssociatedConnUserName />
           <FullPath>BACKUP_LIST_BACKUPS_RESTORE.sql</FullPath>
         </FileNode>
+        <FileNode Name="DBMAIL_ENVIA_EMAIL_ANEXO_CSV.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DBMAIL_ENVIA_EMAIL_ANEXO_CSV.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DBMAIL_ENVIA_EMAIL_DOIS_ANEXOS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DBMAIL_ENVIA_EMAIL_DOIS_ANEXOS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DBMAIL_ENVIA_EMAIL_PELA_QUERY.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DBMAIL_ENVIA_EMAIL_PELA_QUERY.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DBMAIL_ENVIANDO_EMAIL_HTML.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DBMAIL_ENVIANDO_EMAIL_HTML.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DBMAIL_HABILITANDO_ENVIO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DBMAIL_HABILITANDO_ENVIO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DBMAIL_HIST_EMAILS_ENVIADOS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DBMAIL_HIST_EMAILS_ENVIADOS.sql</FullPath>
+        </FileNode>
         <FileNode Name="INDEX_IDENTIFICA_FRAG.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
@@ -132,6 +168,54 @@
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>IO_TAMANHO_FILE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PLANCACHE_HIST_PLANOS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PLANCACHE_HIST_PLANOS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PLANCACHE_IDENTIFICA_CONVERSAO_IMPLICITA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PLANCACHE_IDENTIFICA_CONVERSAO_IMPLICITA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PLANCACHE_IDENTIFICA_KEYLOCK.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PLANCACHE_IDENTIFICA_KEYLOCK.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PLANCACHE_IDENTIFICA_MISSING_INDEX.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PLANCACHE_IDENTIFICA_MISSING_INDEX.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PLANCACHE_IDENTIFICA_PLANOS_EM_EXECUCAO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PLANCACHE_IDENTIFICA_PLANOS_EM_EXECUCAO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PLANCACHE_IDENTIFICA_PROC.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PLANCACHE_IDENTIFICA_PROC.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PLANCACHE_IDENTIFICA_QUERY_LENTAS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PLANCACHE_IDENTIFICA_QUERY_LENTAS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PLANCACHE_INDENTIFICA_PARALELISMO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PLANCACHE_INDENTIFICA_PARALELISMO.sql</FullPath>
         </FileNode>
         <FileNode Name="PROPERTY_CONFIGURACOES_DATABASE.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
