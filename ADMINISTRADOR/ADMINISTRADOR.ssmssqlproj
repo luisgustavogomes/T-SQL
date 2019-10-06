@@ -19,6 +19,42 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="AGENT_ATIVIDADE_JOB_HIST.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AGENT_ATIVIDADE_JOB_HIST.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AGENT_JOBS_E_AGENDAMENTOS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AGENT_JOBS_E_AGENDAMENTOS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AGENT_JOBS_EM_EXECUCAO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AGENT_JOBS_EM_EXECUCAO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AGENT_JOBS_HIST.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AGENT_JOBS_HIST.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AGENT_LOCALIZA_JOB_COM_SP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AGENT_LOCALIZA_JOB_COM_SP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AGENT_LOCALIZA_JOB_PELA_STRING.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AGENT_LOCALIZA_JOB_PELA_STRING.sql</FullPath>
+        </FileNode>
         <FileNode Name="BACKUP_DATABASES_SEM_BACKUP.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
@@ -61,17 +97,17 @@
           <AssociatedConnUserName />
           <FullPath>DBMAIL_ENVIA_EMAIL_DOIS_ANEXOS.sql</FullPath>
         </FileNode>
+        <FileNode Name="DBMAIL_ENVIA_EMAIL_HTML.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DBMAIL_ENVIA_EMAIL_HTML.sql</FullPath>
+        </FileNode>
         <FileNode Name="DBMAIL_ENVIA_EMAIL_PELA_QUERY.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>DBMAIL_ENVIA_EMAIL_PELA_QUERY.sql</FullPath>
-        </FileNode>
-        <FileNode Name="DBMAIL_ENVIANDO_EMAIL_HTML.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>DBMAIL_ENVIANDO_EMAIL_HTML.sql</FullPath>
         </FileNode>
         <FileNode Name="DBMAIL_HABILITANDO_ENVIO.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
