@@ -109,6 +109,6 @@ WHERE
     AND (A.[status] != 'sleeping' OR (A.[status] = 'sleeping' AND A.open_transaction_count > 0))
 
 
-Completion time: 2019-10-04T07:29:35.7050041-03:00
+
 
 

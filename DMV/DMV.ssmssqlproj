@@ -25,6 +25,12 @@
           <AssociatedConnUserName />
           <FullPath>SYS.DM_OS_SYS_INFO.sql</FullPath>
         </FileNode>
+        <FileNode Name="SYS.DM_OS_WAIT_STATS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SYS.DM_OS_WAIT_STATS.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">

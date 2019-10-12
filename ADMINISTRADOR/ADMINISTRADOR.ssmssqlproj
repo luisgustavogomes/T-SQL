@@ -361,6 +361,12 @@
           <AssociatedConnUserName />
           <FullPath>TRANSACT_OPERACAOES_DDL_DCL.sql</FullPath>
         </FileNode>
+        <FileNode Name="TRANSACT_QUERYS_EXECUTADAS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRANSACT_QUERYS_EXECUTADAS.sql</FullPath>
+        </FileNode>
         <FileNode Name="TRANSACT_QUERYS_EXECUTANDO.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
