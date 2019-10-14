@@ -1,5 +1,6 @@
 CREATE OR ALTER FUNCTION [dbo].[fncValida_CPF](@Nr_Documento [varchar](11))
 RETURNS [bit]
+WITH SCHEMABINDING
 AS 
 BEGIN
 

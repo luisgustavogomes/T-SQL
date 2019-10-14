@@ -13,6 +13,8 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DMV", "DMV\DMV.ssmssqlproj"
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "WINDOWS", "WINDOWS\WINDOWS.ssmssqlproj", "{1DF5B45E-196E-49D8-B6B7-047EEFA147EA}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "FUNCTION", "FUNCTION\FUNCTION.ssmssqlproj", "{B34EFC08-FA85-465A-97C7-4C2332EDB58B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -22,8 +24,9 @@ Global
 		{480E153A-CFE0-4A09-8C7A-B2EFE2D997B9}.Default|Default.ActiveCfg = Default
 		{5C2006BD-5D52-40DD-8F89-28E25DEF5910}.Default|Default.ActiveCfg = Default
 		{889ECA1E-B2D3-4D51-B159-BCCF0DB99C9C}.Default|Default.ActiveCfg = Default
-		{A64B9446-3886-47B1-B4E0-97EB91B83F9F}.Default|Default.ActiveCfg = Default
 		{1DF5B45E-196E-49D8-B6B7-047EEFA147EA}.Default|Default.ActiveCfg = Default
+		{55DE7423-5780-4136-A2B1-B556DAED33CE}.Default|Default.ActiveCfg = Default
+		{B34EFC08-FA85-465A-97C7-4C2332EDB58B}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

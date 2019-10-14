@@ -43,6 +43,24 @@
           <AssociatedConnUserName />
           <FullPath>SP_MSFOREACHDB.sql</FullPath>
         </FileNode>
+        <FileNode Name="SP_RECRIA_FK.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SP_RECRIA_FK.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_RECRIA_FK_COMPOSTA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SP_RECRIA_FK_COMPOSTA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_RECRIA_FK_TABELA_REFERENTE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SP_RECRIA_FK_TABELA_REFERENTE.sql</FullPath>
+        </FileNode>
         <FileNode Name="SP_WHOISACTIVE.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
