@@ -49,6 +49,12 @@
           <AssociatedConnUserName />
           <FullPath>FN_Mes.sql</FullPath>
         </FileNode>
+        <FileNode Name="FN_Rand.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FN_Rand.sql</FullPath>
+        </FileNode>
         <FileNode Name="FN_Recupera_Numeros.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
