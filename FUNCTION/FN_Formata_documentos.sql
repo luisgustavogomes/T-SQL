@@ -4,40 +4,40 @@
 	,[DBO].[FN_FORMATA_DOCUMENTO]('89723977000140')
 */
 
-CREATE or ALTER FUNCTION [DBO].[FN_FORMATA_DOCUMENTO](
-    @Nr_Documento varchar(max)
+CREATE OR ALTER FUNCTION [DBO].[FN_FORMATA_DOCUMENTO](
+    @NR_DOCUMENTO VARCHAR(MAX)
 )
-RETURNS varchar(max)
+RETURNS VARCHAR(MAX)
 WITH SCHEMABINDING
 AS BEGIN
 
-    SET @Nr_Documento = Replace(@Nr_Documento,'.','')
-    SET @Nr_Documento = Replace(@Nr_Documento,'/','')
-    SET @Nr_Documento = Replace(@Nr_Documento,'-','')
+    SET @NR_DOCUMENTO = REPLACE(@NR_DOCUMENTO,'.','')
+    SET @NR_DOCUMENTO = REPLACE(@NR_DOCUMENTO,'/','')
+    SET @NR_DOCUMENTO = REPLACE(@NR_DOCUMENTO,'-','')
 
-    DECLARE @Nr_Formatado varchar(max)
+    DECLARE @NR_FORMATADO VARCHAR(MAX)
     
     
-    IF (LEN(@Nr_Documento) = 14) BEGIN
-        SET @Nr_Formatado = 
-            substring(@Nr_Documento,1,2) + '.' + 
-            substring(@Nr_Documento,3,3) + '.' + 
-            substring(@Nr_Documento,6,3) + '/' + 
-            substring(@Nr_Documento,9,4) + '-' + 
-            substring(@Nr_Documento,13,2)
+    IF (LEN(@NR_DOCUMENTO) = 14) BEGIN
+        SET @NR_FORMATADO = 
+            SUBSTRING(@NR_DOCUMENTO,1,2) + '.' + 
+            SUBSTRING(@NR_DOCUMENTO,3,3) + '.' + 
+            SUBSTRING(@NR_DOCUMENTO,6,3) + '/' + 
+            SUBSTRING(@NR_DOCUMENTO,9,4) + '-' + 
+            SUBSTRING(@NR_DOCUMENTO,13,2)
     END
     
     
-    IF (LEN(@Nr_Documento) = 11) BEGIN	
-        SET @Nr_Formatado = 
-            substring(@Nr_Documento,1,3) + '.' + 
-            substring(@Nr_Documento,4,3) + '.' + 
-            substring(@Nr_Documento,7,3) + '-' + 
-            substring(@Nr_Documento,10,2)
+    IF (LEN(@NR_DOCUMENTO) = 11) BEGIN	
+        SET @NR_FORMATADO = 
+            SUBSTRING(@NR_DOCUMENTO,1,3) + '.' + 
+            SUBSTRING(@NR_DOCUMENTO,4,3) + '.' + 
+            SUBSTRING(@NR_DOCUMENTO,7,3) + '-' + 
+            SUBSTRING(@NR_DOCUMENTO,10,2)
     END
     
-    IF (@Nr_Formatado IS NULL) SET @Nr_Formatado = @Nr_Documento
+    IF (@NR_FORMATADO IS NULL) SET @NR_FORMATADO = @NR_DOCUMENTO
     
-    RETURN @Nr_Formatado
+    RETURN @NR_FORMATADO
     
 END

@@ -5,8 +5,9 @@
 -- 4: JAN FEV MAR ABR
 -- 5: January, February ... (cubo)
 
-CREATE FUNCTION [dbo].[FN_Mes] (@Dt_Referencia DATETIME, @Fl_Tipo TINYINT, @Fl_Incluir_Ano BIT = 0, @Fl_Incluir_Dia BIT = 0)
+CREATE OR ALTER FUNCTION [dbo].[FN_Mes] (@Dt_Referencia DATETIME, @Fl_Tipo TINYINT, @Fl_Incluir_Ano BIT = 0, @Fl_Incluir_Dia BIT = 0)
 RETURNS VARCHAR(30)
+WITH SCHEMABINDING
 AS BEGIN
 
     

@@ -31,6 +31,18 @@
           <AssociatedConnUserName />
           <FullPath>FN_Base64_Encode.sql</FullPath>
         </FileNode>
+        <FileNode Name="FN_Calcula_Idade.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FN_Calcula_Idade.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FN_Calcula_Idade2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FN_Calcula_Idade2.sql</FullPath>
+        </FileNode>
         <FileNode Name="FN_Converte_em_Horas.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
@@ -60,6 +72,12 @@
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>FN_Recupera_Numeros.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FN_Recupera_Numeros_INT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FN_Recupera_Numeros_INT.sql</FullPath>
         </FileNode>
         <FileNode Name="FN_Split.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
