@@ -55,11 +55,23 @@
           <AssociatedConnUserName />
           <FullPath>FN_Formata_documentos.sql</FullPath>
         </FileNode>
+        <FileNode Name="FN_Iniciais.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FN_Iniciais.sql</FullPath>
+        </FileNode>
         <FileNode Name="FN_Mes.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>FN_Mes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FN_Pri_Maiuscula.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FN_Pri_Maiuscula.sql</FullPath>
         </FileNode>
         <FileNode Name="FN_Rand.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
