@@ -21,6 +21,8 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "JSON", "JSON\JSON.ssmssqlpr
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "XPCMDSHELL", "XPCMDSHELL\XPCMDSHELL.ssmssqlproj", "{6B0304C1-0592-4000-90F5-9A8B9C170441}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQLCMD", "SQLCMD\SQLCMD.ssmssqlproj", "{05886863-16C1-4492-A306-7E14825F63F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -36,6 +38,7 @@ Global
 		{5312ABEB-D6B6-4CA4-A421-8AF68FE167FC}.Default|Default.ActiveCfg = Default
 		{0C75FEBE-035B-42B1-A2C9-90C572ED436F}.Default|Default.ActiveCfg = Default
 		{6B0304C1-0592-4000-90F5-9A8B9C170441}.Default|Default.ActiveCfg = Default
+		{05886863-16C1-4492-A306-7E14825F63F9}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -85,6 +85,12 @@
           <AssociatedConnUserName />
           <FullPath>BACKUP_LIST_BACKUPS_RESTORE.sql</FullPath>
         </FileNode>
+        <FileNode Name="BACKUP_RESTORE_COMMAND.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>BACKUP_RESTORE_COMMAND.sql</FullPath>
+        </FileNode>
         <FileNode Name="DBMAIL_ENVIA_EMAIL_ANEXO_CSV.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
@@ -289,6 +295,12 @@
           <AssociatedConnUserName />
           <FullPath>STATISTICS_SEM_ATUALIZAR.sql</FullPath>
         </FileNode>
+        <FileNode Name="TABLE_DATE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TABLE_DATE.sql</FullPath>
+        </FileNode>
         <FileNode Name="TABLE_IDENTIFICA_HEAP.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
@@ -312,6 +324,12 @@
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>TABLE_SCRIPT_INDICES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TABLE_TABELAS_E_COLUNAS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TABLE_TABELAS_E_COLUNAS.sql</FullPath>
         </FileNode>
         <FileNode Name="TABLE_TAMANHO.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>

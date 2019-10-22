@@ -38,10 +38,16 @@
           <FullPath>CROSS APPLY and OUTER APPLY_2.sql</FullPath>
         </FileNode>
         <FileNode Name="CTE RECURSIVA.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CTE RECURSIVA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CTE RECURSIVA_ACUMULATIVIDADE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CTE RECURSIVA_ACUMULATIVIDADE.sql</FullPath>
         </FileNode>
         <FileNode Name="FIRST_VALUE and LAST_VALUE.sql">
           <AssociatedConnectionMoniker />
@@ -54,6 +60,12 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>HELP_DATE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HELP_DATE2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HELP_DATE2.sql</FullPath>
         </FileNode>
         <FileNode Name="LEAD and LAG.sql">
           <AssociatedConnectionMoniker />
@@ -72,6 +84,12 @@
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>NULLIF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="OUTPUT_INSERT_UPDATE_DELETE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>OUTPUT_INSERT_UPDATE_DELETE.sql</FullPath>
         </FileNode>
         <FileNode Name="OVER.sql">
           <AssociatedConnectionMoniker />
@@ -96,6 +114,24 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>RANGE and ROWS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ROLLUP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ROLLUP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ROLLUP_E_WITHCUBE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ROLLUP_E_WITHCUBE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="STUFF.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>STUFF.sql</FullPath>
         </FileNode>
         <FileNode Name="UNPIVOT sem CLAUSULA UNPIVOT.sql">
           <AssociatedConnectionMoniker />
