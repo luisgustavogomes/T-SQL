@@ -25,11 +25,23 @@
           <AssociatedConnUserName />
           <FullPath>XPCMDSHELL_SP_APAGA_ARQUIVO.sql</FullPath>
         </FileNode>
+        <FileNode Name="XPCMDSHELL_SP_APAGA_DIRETORIO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>XPCMDSHELL_SP_APAGA_DIRETORIO.sql</FullPath>
+        </FileNode>
         <FileNode Name="XPCMDSHELL_SP_ARQUIVO_EXISTE.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>XPCMDSHELL_SP_ARQUIVO_EXISTE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="XPCMDSHELL_SP_COPIA_ARQUIVO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>XPCMDSHELL_SP_COPIA_ARQUIVO.sql</FullPath>
         </FileNode>
         <FileNode Name="XPCMDSHELL_SP_CRIA_DIRETORIO.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
@@ -42,6 +54,18 @@
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>XPCMDSHELL_SP_ESCREVE_ARQUIVO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="XPCMDSHELL_SP_LISTAR_ARQUIVOS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>XPCMDSHELL_SP_LISTAR_ARQUIVOS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="XPCMDSHELL_SP_MOVE_ARQUIVO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>XPCMDSHELL_SP_MOVE_ARQUIVO.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

@@ -50,10 +50,16 @@
           <FullPath>CTE RECURSIVA_ACUMULATIVIDADE.sql</FullPath>
         </FileNode>
         <FileNode Name="FIRST_VALUE and LAST_VALUE.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>FIRST_VALUE and LAST_VALUE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FLOOR and CEILING.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FLOOR and CEILING.sql</FullPath>
         </FileNode>
         <FileNode Name="HELP_DATE.sql">
           <AssociatedConnectionMoniker />
@@ -98,14 +104,14 @@
           <FullPath>OVER.sql</FullPath>
         </FileNode>
         <FileNode Name="PIVOT DINAMICO.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>PIVOT DINAMICO.sql</FullPath>
         </FileNode>
         <FileNode Name="PIVOT.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>PIVOT.sql</FullPath>
         </FileNode>
