@@ -25,11 +25,29 @@
           <AssociatedConnUserName />
           <FullPath>CONFIG.sql</FullPath>
         </FileNode>
+        <FileNode Name="FN_LER_ARQUIVO_FSO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FN_LER_ARQUIVO_FSO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FN_LER_ARQUIVO_STRING_FSO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FN_LER_ARQUIVO_STRING_FSO.sql</FullPath>
+        </FileNode>
         <FileNode Name="SP_ESCREVE_ARQUIVO_FSO.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SP_ESCREVE_ARQUIVO_FSO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_SAVEDELIMITEDCOLIMNUS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SP_SAVEDELIMITEDCOLIMNUS.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

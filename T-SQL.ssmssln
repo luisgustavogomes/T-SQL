@@ -27,6 +27,8 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "BCP", "BCP\BCP.ssmssqlproj"
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "OLE_AUTOMATION", "OLE_AUTOMATION\OLE_AUTOMATION.ssmssqlproj", "{B46DCDBF-6448-4B3C-9BF5-491E7D507FFC}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "CLR", "CLR\CLR.ssmssqlproj", "{65FDE1B1-3F97-4E5F-BE48-E4FE9765A497}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -45,6 +47,7 @@ Global
 		{14213DE1-8677-447B-BE38-4662B7C521C0}.Default|Default.ActiveCfg = Default
 		{E1C991BE-62FE-47EC-98EF-BA283908CF21}.Default|Default.ActiveCfg = Default
 		{B46DCDBF-6448-4B3C-9BF5-491E7D507FFC}.Default|Default.ActiveCfg = Default
+		{65FDE1B1-3F97-4E5F-BE48-E4FE9765A497}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
