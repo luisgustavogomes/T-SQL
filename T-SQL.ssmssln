@@ -23,6 +23,10 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "XPCMDSHELL", "XPCMDSHELL\XP
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQLCMD", "SQLCMD\SQLCMD.ssmssqlproj", "{05886863-16C1-4492-A306-7E14825F63F9}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "BCP", "BCP\BCP.ssmssqlproj", "{E1C991BE-62FE-47EC-98EF-BA283908CF21}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "OLE_AUTOMATION", "OLE_AUTOMATION\OLE_AUTOMATION.ssmssqlproj", "{B46DCDBF-6448-4B3C-9BF5-491E7D507FFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -34,11 +38,13 @@ Global
 		{889ECA1E-B2D3-4D51-B159-BCCF0DB99C9C}.Default|Default.ActiveCfg = Default
 		{1DF5B45E-196E-49D8-B6B7-047EEFA147EA}.Default|Default.ActiveCfg = Default
 		{B34EFC08-FA85-465A-97C7-4C2332EDB58B}.Default|Default.ActiveCfg = Default
-		{DE9C3C54-8F26-4B53-BB2C-148C89296B8C}.Default|Default.ActiveCfg = Default
 		{5312ABEB-D6B6-4CA4-A421-8AF68FE167FC}.Default|Default.ActiveCfg = Default
 		{0C75FEBE-035B-42B1-A2C9-90C572ED436F}.Default|Default.ActiveCfg = Default
 		{6B0304C1-0592-4000-90F5-9A8B9C170441}.Default|Default.ActiveCfg = Default
 		{05886863-16C1-4492-A306-7E14825F63F9}.Default|Default.ActiveCfg = Default
+		{14213DE1-8677-447B-BE38-4662B7C521C0}.Default|Default.ActiveCfg = Default
+		{E1C991BE-62FE-47EC-98EF-BA283908CF21}.Default|Default.ActiveCfg = Default
+		{B46DCDBF-6448-4B3C-9BF5-491E7D507FFC}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

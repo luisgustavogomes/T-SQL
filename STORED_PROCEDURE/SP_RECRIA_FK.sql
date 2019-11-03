@@ -1,7 +1,8 @@
 /*
 	https://www.dirceuresende.com/blog/como-identificar-apagar-e-recriar-foreign-keys-fk-de-uma-tabela-no-sql-server/
 
-	om o código abaixo, você poderá criar a SP citada no tópico, que permite a fácil visualização das FK’s que referenciam uma determinada tabela, e já informa o script para a remoção e criação dessa FK:
+	O código abaixo, você poderá criar a SP citada no tópico, que permite a fácil visualização das FK’s que 
+	referenciam uma determinada tabela, e já informa o script para a remoção e criação dessa FK:
 
 	EXEC [DBO].[SP_RECRIA_FK] @DATABASE = 'NORTHWIND' ,  @OBJETO = 'Order_Details'
 	EXEC [DBO].[SP_RECRIA_FK_COMPOSTA] @DATABASE = 'NORTHWIND' ,  @OBJETO = 'Order_Details'
