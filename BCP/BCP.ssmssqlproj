@@ -3,7 +3,7 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="luis:LUIS\lg">
+        <ConnectionNode Name="luis:TBSA\luis.gomes">
           <Created>2019-11-02T10:15:25.3904022-03:00</Created>
           <Type>SQL</Type>
           <Server>luis</Server>
@@ -15,15 +15,39 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="TBSA-025698:TBSA\luis.gomes">
+          <Created>2019-11-06T07:38:34.4183143-03:00</Created>
+          <Type>SQL</Type>
+          <Server>TBSA-025698</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="EXPORT_QUERY_AND_TABLE_EXCEL.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+        <FileNode Name="_CONFIG.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>EXPORT_QUERY_AND_TABLE_EXCEL.sql</FullPath>
+          <FullPath>_CONFIG.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EXPORTAR_QUERY_AND_TABLE_EXCEL.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>EXPORTAR_QUERY_AND_TABLE_EXCEL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IMPORTAR_TABLE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TBSA-025698:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TBSA-025698</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>IMPORTAR_TABLE.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

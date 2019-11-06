@@ -16,7 +16,7 @@
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
         <ConnectionNode Name="TBSA-025698:TBSA\luis.gomes">
-          <Created>2019-11-05T08:31:14.8456304-02:00</Created>
+          <Created>2019-11-05T07:31:14.8456304-03:00</Created>
           <Type>SQL</Type>
           <Server>TBSA-025698</Server>
           <UserName />
@@ -31,6 +31,12 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="_LOG.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TBSA-025698:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TBSA-025698</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>_LOG.sql</FullPath>
+        </FileNode>
         <FileNode Name="_OPENROWSET_WITH_RESULTS.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TBSA-025698:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>TBSA-025698</AssociatedConnSrvName>
