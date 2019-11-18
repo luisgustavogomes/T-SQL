@@ -4,7 +4,7 @@
 
 EXEC [dbo].[SP_SAVEDELIMITEDCOLUMNS]
     @DBFetch='select * from master.sys.tables',
-    @PCWrite='C:\Temporario\Teste.csv',
+    @PCWrite='C:\Temporario\teste.csv',
 	@Header = 1
 
 */
