@@ -27,8 +27,8 @@ GO
 -----------------------------------------------------------------------------------------
 
 DECLARE
-    @Account_Name SYSNAME = 'ContaEnvioEmail',
-    @Profile_Name SYSNAME = 'ProfileEnvioEmail'
+    @Account_Name SYSNAME = 'Luis',
+    @Profile_Name SYSNAME = 'OutlookLuis'
     
 
 IF ((SELECT COUNT(*) FROM msdb.dbo.sysmail_account WHERE name = @Account_Name) > 0)
@@ -38,14 +38,14 @@ IF ((SELECT COUNT(*) FROM msdb.dbo.sysmail_account WHERE name = @Account_Name) >
 EXEC msdb.dbo.sysmail_add_account_sp
     @account_name = @Account_Name,
     @description = 'Conta de e-mail para ser utilizada por todos os usuários do banco',
-    @email_address = 'usuario@seudominio.com.br',
-    @replyto_address = 'naoresponder@seudominio.com.br',
-    @display_name = 'Sua Empresa',
-    @mailserver_name = 'smtp.seudominio.com.br',
+    @email_address = 'luisgustavogomes@outlook.com',
+    @replyto_address = 'luisgustavogomes@outlook.com',
+    @display_name = 'Luis',
+    @mailserver_name = 'SMTP.office365.com',
     @mailserver_type = 'SMTP',
     @port = '587',
-    @username = 'usuario@seudominio.com.br',
-    @password = 'senha',
+    @username = 'luisgustavogomes',
+    @password = 'lg@123456',
     @enable_ssl = 1,
     @use_default_credentials = 0
 

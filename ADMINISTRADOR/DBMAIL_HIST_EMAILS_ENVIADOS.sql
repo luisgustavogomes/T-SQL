@@ -25,3 +25,6 @@ SELECT
 FROM 
     msdb.dbo.sysmail_mailitems                  A    WITH(NOLOCK)
     LEFT JOIN msdb.dbo.sysmail_event_log        B    WITH(NOLOCK)    ON A.mailitem_id = B.mailitem_id
+
+
+	

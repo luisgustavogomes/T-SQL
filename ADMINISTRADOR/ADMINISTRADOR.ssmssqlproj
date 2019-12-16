@@ -91,6 +91,12 @@
           <AssociatedConnUserName />
           <FullPath>BACKUP_RESTORE_COMMAND.sql</FullPath>
         </FileNode>
+        <FileNode Name="DBMAIL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DBMAIL.sql</FullPath>
+        </FileNode>
         <FileNode Name="DBMAIL_ENVIA_EMAIL_ANEXO_CSV.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
