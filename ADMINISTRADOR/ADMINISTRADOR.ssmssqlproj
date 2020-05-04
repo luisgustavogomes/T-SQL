@@ -343,6 +343,12 @@
           <AssociatedConnUserName />
           <FullPath>TABLE_TAMANHO.sql</FullPath>
         </FileNode>
+        <FileNode Name="TASK USER.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TASK USER.sql</FullPath>
+        </FileNode>
         <FileNode Name="TRANSACT_EVENTOS_AUTOGROWTH.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
