@@ -91,6 +91,12 @@
           <AssociatedConnUserName />
           <FullPath>NULLIF.sql</FullPath>
         </FileNode>
+        <FileNode Name="OFFSET and FETCH.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>OFFSET and FETCH.sql</FullPath>
+        </FileNode>
         <FileNode Name="OUTPUT_INSERT_UPDATE_DELETE.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
@@ -122,14 +128,14 @@
           <FullPath>RANGE and ROWS.sql</FullPath>
         </FileNode>
         <FileNode Name="ROLLUP.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>ROLLUP.sql</FullPath>
         </FileNode>
         <FileNode Name="ROLLUP_E_WITHCUBE.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>ROLLUP_E_WITHCUBE.sql</FullPath>
         </FileNode>
@@ -138,12 +144,6 @@
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>ROLLUP_E_WITHCUBE_E_GROUPINGSETS.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery1.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery1.sql</FullPath>
         </FileNode>
         <FileNode Name="STUFF.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
@@ -162,6 +162,12 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>UNPIVOT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WITH_RESULTS_SETS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>WITH_RESULTS_SETS.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
