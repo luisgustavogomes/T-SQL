@@ -39,3 +39,14 @@ FROM tblPaginacao
 ORDER BY id
 OFFSET 5 ROWS
 FETCH NEXT 10 ROWS ONLY
+
+DECLARE @PageNumber INT = 1 
+DECLARE @RowsPerPage INT = 5
+
+SELECT *
+  FROM ProductsBig
+ ORDER BY Col2
+OFFSET ((@PageNumber - 1) * @RowsPerPage) ROWS
+ FETCH NEXT @RowsPerPage ROWS ONLY
+OPTION (RECOMPILE, MAXDOP 1)
+GO
