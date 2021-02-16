@@ -15,6 +15,18 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="LUIS\LG:LUIS\lg">
+          <Created>2020-12-14T20:49:32.7519191-03:00</Created>
+          <Type>SQL</Type>
+          <Server>LUIS\LG</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
@@ -144,6 +156,12 @@
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>ROLLUP_E_WITHCUBE_E_GROUPINGSETS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="STRING_AGG.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LUIS\LG:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LUIS\LG</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>STRING_AGG.sql</FullPath>
         </FileNode>
         <FileNode Name="STUFF.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>

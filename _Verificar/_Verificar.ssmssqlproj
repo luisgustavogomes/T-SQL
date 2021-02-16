@@ -25,6 +25,18 @@
           <AssociatedConnUserName />
           <FullPath>INFORMACOES_INDICES.sql</FullPath>
         </FileNode>
+        <FileNode Name="Plan Reuse-affecting set options.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Plan Reuse-affecting set options.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Script para localizar tabelas sem indices clusterizados.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>luis</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Script para localizar tabelas sem indices clusterizados.sql</FullPath>
+        </FileNode>
         <FileNode Name="TESTE_COMPRESSAO.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:luis:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>luis</AssociatedConnSrvName>

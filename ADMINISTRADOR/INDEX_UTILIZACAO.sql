@@ -29,6 +29,7 @@ FROM
     JOIN sys.allocation_units F ON E.[partition_id] = F.container_id
 WHERE
     C.is_ms_shipped = 0
+	and C.[name] like 'ZMDPERMANENCIA%'
 GROUP BY
     D.[name] + '.' + C.[name],
     A.[name],
