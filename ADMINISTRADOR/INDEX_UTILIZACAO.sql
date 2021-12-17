@@ -1,13 +1,15 @@
 /*
 
-Utilização dos índices
+Utilizaï¿½ï¿½o dos ï¿½ndices
 https://www.dirceuresende.com/blog/sql-server-consultas-uteis-do-dia-a-dia-do-dba-que-voce-sempre-tem-que-ficar-procurando-na-internet/
-
+SELECT * FROM SYS.indexes
 */
 
 SELECT
-    D.[name] + '.' + C.[name] AS ObjectName,
+    D.[name] AS SchemaName, 
+	C.[name] AS ObjectName,
     A.[name] AS IndexName,
+	A.is_primary_key,
     (CASE WHEN A.is_unique = 1 THEN 'UNIQUE ' ELSE '' END) + A.[type_desc] AS IndexType,
     MAX(B.last_user_seek) AS last_user_seek,
     MAX(COALESCE(B.last_user_seek, B.last_user_scan)) AS last_read,
@@ -29,10 +31,9 @@ FROM
     JOIN sys.allocation_units F ON E.[partition_id] = F.container_id
 WHERE
     C.is_ms_shipped = 0
-	and C.[name] like 'ZMDPERMANENCIA%'
+	--and C.[name] like 'ZMDPERMANENCIA%'
 GROUP BY
-    D.[name] + '.' + C.[name],
-    A.[name],
+    D.[name],C.[name],A.[name],A.is_primary_key,
     (CASE WHEN A.is_unique = 1 THEN 'UNIQUE ' ELSE '' END) + A.[type_desc]
 ORDER BY
     1, 2
